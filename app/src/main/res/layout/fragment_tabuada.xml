@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.matematica.Tabuada_Fragmento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/txtTabuadaApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/red"
+            android:gravity="center_horizontal"
+            android:text="Operação de Tabuadas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/valorTabuada"
+            android:layout_width="250sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:hint="Tabuada de 1 a 50"
+            android:background="#E1E1E1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/btnTabuada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tabuada"
+            android:textAlignment="center"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/resultadoTabuada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

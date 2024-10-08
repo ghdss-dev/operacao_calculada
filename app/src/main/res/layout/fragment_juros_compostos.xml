@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.matematica.Juros_Compostos_Fragmento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/red"
+            android:gravity="center_horizontal"
+            android:text="Cálculo de Juros Compostos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor Inicial (capital)"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_valor_capital"
+            android:layout_width="160sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Valor Inicial"
+            android:background="#E1E1E1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxa de Juros A.M"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_taxa_juros"
+            android:layout_width="160sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Juros"
+            android:background="#E1E1E1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempo de Rendimento"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_tempo_rendimento"
+            android:layout_width="160sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Rendimento"
+            android:background="#E1E1E1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/btnCalcular_juros_compostos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:contentDescription="Botão para calcular"
+            android:text="@string/calcular" />
+
+        <TextView
+            android:id="@+id/text_juros_compostos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>
