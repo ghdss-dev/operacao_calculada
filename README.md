@@ -60,5 +60,6 @@ Outro desafio enfrentado foi o design do layout. Trabalhei para centralizar todo
 
 ```
 
-
 ## Visualização do Projeto 
+
+Visualização: https://youtu.be/iWeH2hW8-Gc?si=ygOV1RR6uY1xBco2 
