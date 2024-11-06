@@ -50,4 +50,15 @@ Outro desafio enfrentado foi o design do layout. Trabalhei para centralizar todo
 
 ```
 
+## Testar o projeto no celular 
+
+```bash 
+
+  $ Clicar na pasta app/release/app-release.apk
+
+  $ Depois clicar na setinha para baixo do github - Download raw file
+
+```
+
+
 ## Visualização do Projeto 
