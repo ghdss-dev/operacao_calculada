@@ -58,6 +58,10 @@ public class Menu_Fisica extends AppCompatActivity implements NavigationView.OnN
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Amperagem_Fragmento()).commit();
 
+        } else if (item.getItemId() == dev.gustavo.operacao_calculada.R.id.nav_carga) {
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Carga_Maxima_Consumo_Fragmento()).commit();
+
         } else if (item.getItemId() == dev.gustavo.operacao_calculada.R.id.nav_logout) {
 
             Intent intent = new Intent(Menu_Fisica.this, Apresentacao.class);

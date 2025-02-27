@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.fisica.Carga_Maxima_Consumo_Fragmento">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cálculo de consumo de carga máxima"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_potencia"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="18dp"
+        android:hint="Informe a potência: "
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/edit_carga_maxima"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="18dp"
+        android:hint="Informe a carga máxima"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular o consumo"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+</LinearLayout>

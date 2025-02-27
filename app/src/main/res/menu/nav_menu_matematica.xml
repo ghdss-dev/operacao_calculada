@@ -33,6 +33,12 @@
             android:title="Consumo médio"
             />
 
+        <item android:id="@+id/nav_bitcoin"
+            android:icon="@drawable/nav_bitcoin"
+            android:title="Cálculo de Bitcoin"
+            />
+
+
     </group>
 
     <item android:title="">

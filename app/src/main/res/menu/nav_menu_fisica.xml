@@ -19,6 +19,12 @@
             android:title="Calculo de Amperagem"
             />
 
+        <item
+            android:id="@+id/nav_carga"
+            android:icon="@drawable/nav_load"
+            android:title="Cálculo de Carga Máxima"
+            />
+
     </group>
 
     <item android:title="">

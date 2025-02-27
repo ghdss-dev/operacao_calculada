@@ -19,11 +19,6 @@
             android:name=".view.fisica.Menu_Fisica"
             android:exported="false" />
         <activity
-            android:name=".view.Menu_Fisica"
-            android:exported="false"
-            android:label="@string/title_activity_menu_fisica"
-            android:theme="@style/Theme.Operacao_calculada" />
-        <activity
             android:name=".view.matematica.Menu_Matematica"
             android:exported="false" />
         <activity

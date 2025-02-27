@@ -67,6 +67,10 @@ public class Menu_Matematica extends AppCompatActivity implements NavigationView
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Consumo_Medio_Fragmento()).commit();
 
+        } else if (item.getItemId() == dev.gustavo.operacao_calculada.R.id.nav_bitcoin) {
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Bitcoin_Fragmento()).commit();
+
         } else if (item.getItemId() == dev.gustavo.operacao_calculada.R.id.nav_logout) {
 
             Intent intent = new Intent(Menu_Matematica.this, Apresentacao.class);
